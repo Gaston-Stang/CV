@@ -1,0 +1,218 @@
+body#mas_info
+{
+	background-color: #33C1FF;
+	background-image: url("../img/fondo_seis.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	font-family: 'Open Sans', sans-serif;
+}
+
+div#color_de_fondo 
+{
+	background-color: #333;
+	opacity: 0.95;
+	border: 6px solid #111;
+	border-radius: 6px;
+	padding: 12px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+/*título*/
+
+h1#header_info 
+{
+	background-color: #fff;
+	border: 6px solid #111;
+	border-radius: 6px;
+	font-size: 35px;
+	font-weight:bold;
+	height: 2%;		
+	margin: 12px auto;
+	padding: 40px 0px 40px 40px;
+	width: 95.9%;
+}
+
+/*botón para volver al juego*/
+
+.clase_info_boton
+{
+	background-color: #eee;
+	border: 3px solid #111;
+	border-radius: 6px;
+	float: left;
+	font-size: 15px;
+	font-weight:bold;
+	opacity: 0.95;
+	text-align: center;
+	text-transform: uppercase;
+	margin-left: 6px; 
+	width: 100%; 
+}
+.clase_info_boton:hover 
+{
+	background:#fff;
+	color: #8080FF;
+	animation-duration: 3s;
+}
+
+/*botón 1*/
+
+a#mas_info_boton1
+{
+	margin-top: 2.8%;
+	color: black;
+	position: fixed;
+	text-decoration: none;
+	width: 6%;
+}
+
+/*botón 2*/
+
+a#mas_info_boton2
+{
+	margin-top: 12.5%;
+	color: black;
+	position: fixed;
+	text-decoration: none;
+	width: 6%;
+}
+
+/*información*/
+
+p.contenedor_info
+{
+	background-color: #fff;
+	border: 6px solid #111;
+	border-radius: 6px;
+	clear: left;
+	font-size: 25px;
+	height: 350px;
+	margin-bottom: 40px;
+	margin: 4% auto;
+	margin-left: 7%;
+	overflow-y: scroll;
+	padding: 20px;
+	width: 21%;
+}
+
+/*con imágenes*/
+
+p.contenedor2_info
+{
+	background-color: #fff;
+	border: 6px solid #111;
+	border-radius: 6px;
+	float: right;
+	font-size: 25px;
+	height: 802px;
+	margin-bottom: 40px;
+	margin: 0%;
+	margin-right: 5%;
+	margin-left: 2%;
+	padding: 20px;
+	width: 55%;
+}
+
+.img_mas_info
+{
+	height: 95%; 
+	width: 100%;
+}
+
+/*pruebas pie de página - todavía sin terminar*/
+
+p#footer_info
+{
+	background-color: #fff;
+	border: 6px solid #111;
+	border-radius: 6px;
+	font-size: 15px;
+	font-weight:bold;
+	height: 100px;		
+	margin: 12px auto;
+	padding: 40px 0px 40px 40px;
+	width: 95.9%;	
+}
+
+/*cronómetro*/
+
+#timer 
+{	
+	border: 0.5px solid #616161;
+	font-family:Open Sans;
+	width: 50%;
+	margin: 0 auto;
+
+}
+#timer .container 
+{
+	background: #8080FF;
+	color:#eee;
+	display:table;
+	font-weight:bold;
+	text-align:center;
+	text-shadow:1px 1px 4px #999;
+	width:100%;
+}
+#timer .container div 
+{
+	display:table-cell;
+	font-size:30px;
+	padding:2px;
+	width:20px;
+}
+#timer .container .divider 
+{
+	color:#ddd;
+	width:10px;
+}
+
+#btn-comenzar
+{
+	box-sizing:border-box;
+	background:#eee;
+	border:none;
+	color:#777;
+	font-size:30px;
+	margin:0 auto;
+	padding:2px;
+	width:100%;
+}
+#btn-comenzar:hover 
+{
+	background:#fff;
+	color: #8080FF;
+}
+
+/*pág ganaste!!!*/
+
+body#ganador
+{
+	background-image: url("../img/ganador.gif");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	font-family: 'Indie Flower', cursive;
+}
+
+.ganador_titulo
+{
+	border: 3px solid #fff;
+	border-radius: 9px;
+	background-color: #000;
+	color: #fff;
+	font-size: 40px;
+	font-weight:bold;
+	margin: 0 auto;
+	margin-top: 20%;
+	opacity: 0.5;
+	padding: 10px 10px 10px 10px;
+	text-align: center;
+	width: 500px;
+}
+.ganador_titulo:hover
+{
+	opacity: 0;
+}

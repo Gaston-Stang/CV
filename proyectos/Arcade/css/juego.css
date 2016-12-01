@@ -1,0 +1,96 @@
+body
+{
+	background-color: #33C1FF;
+	background-image: url("../img/fondo_seis.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	font-family: 'Oswald', sans-serif;
+}
+
+/*rompecabezas*/
+
+#juego 
+{
+	background: #eee;
+	float: right;
+	height: 600px;
+	margin-top: 30px;
+	margin-right: 10%;
+	outline: 6px solid #eee;
+	position: relative;
+	width: 600px;
+}
+
+.pieza 
+{
+	background-size: cover;
+	background-position: center center;
+	border-bottom: 3px solid #616161;
+	border-left: 3px solid #fff;
+	border-radius: 5px;
+	border-right: 3px solid #616161;
+	border-top: 3px solid #fff;
+	box-sizing: border-box;
+	height: 200px;
+	position: absolute;
+	transition: all 0.2s ease-in-out;
+	width: 200px;
+}
+
+/*columna de información*/
+
+#c-izquierda 
+{
+	background-color: #eee;
+	float: left;
+	height: 600px;
+	margin-top: 30px;
+	margin-left: 10%;
+	outline: 6px solid #222;
+	padding: 0px 7px;
+	text-align: center;
+	width: 300px;
+}
+
+.titulo 
+{
+	color: darkblue;
+	text-align: center;
+	text-decoration: none;
+}
+
+.titulo:hover
+{
+	color: blue;
+}
+
+#tituloSinVinculo
+{
+	color: darkblue;
+	text-align: center;
+	text-decoration: none;	
+}
+
+#btn_mas_info
+{
+	box-sizing:border-box;
+	background:#eee;
+	border: 0.5px solid #616161;
+	color:#555;
+	font-size:15px;
+	font-weight:bold;
+	margin:0 auto;
+	padding: 5px;
+	width:50%;
+}
+#btn_mas_info:hover 
+{
+	background:#fff;
+	color: #8080FF;
+}
+
+.opacity
+{
+	opacity: 0.95;
+}
